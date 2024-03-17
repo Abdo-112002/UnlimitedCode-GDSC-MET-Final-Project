@@ -1,0 +1,21 @@
+:root {
+    --mainColor: #23a6f0;
+    --darkColor: #000000;
+    --textColor: #737373;
+    --wightColor: #ffffff;
+    --mainFont: "Cairo", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--mainFont);
+}
+
+a {
+    text-decoration: none;
+}
