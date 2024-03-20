@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>منصة كورسات</title>
-
         <!-- custom font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +11,6 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
             rel="stylesheet"
         />
-
         <!-- fontAwesom -->
         <link
             rel="stylesheet"
@@ -21,12 +19,43 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-
         <!-- my custom css -->
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/home.css" />
     </head>
-    <body>
-        <div class="mainBtn">ابدأ الان</div>
+    <body lang="ar" dir="rtl">
+        <section class="heroSection">
+            <div class="row">
+                <header class="l-header">
+                    <div class="row">
+                        <div class="l-header--logo">BrandName</div>
+                        <nav class="l-header--navLinks">
+                            <a href="#">الرئيسيه</a>
+                            <a href="#">من نحن</a>
+                            <a href="#">الكورسات</a>
+                            <a href="#">التواصل</a>
+                        </nav>
+                    </div>
+                </header>
+                <div class="heroSection__content">
+                    <div class="row">
+                        <div class="heroSection__content--info">
+                            <h1 class="heroSection__content--info-title">دورات ذات <span>جودة</span> ممتازة</h1>
+                            <p class="heroSection__content--info-desc">
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                                المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+                                من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
+                                يولدها التطبيق
+                            </p>
+                            <div class="mainBtn">ابدأ الان</div>
+                        </div>
+                        <div class="heroSection__content--img">
+                            <img src="./images/heroImg.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

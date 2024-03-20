@@ -1,10 +1,4 @@
-
-
-/* 
-.header {
-
+.l-header {
+    border: 1px solid red;
+    flex-basis: 100%;
 }
-
-.footer {
-
-} */
