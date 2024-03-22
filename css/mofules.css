@@ -19,3 +19,29 @@
     height: 100%;
     gap: 20px;
 }
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.sectionTitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--titleColor);
+    position: relative;
+    padding-top: 20px;
+}
+
+.sectionTitle::after {
+    content: "";
+    display: block;
+    background-color: var(--redColor);
+    width: 94px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
