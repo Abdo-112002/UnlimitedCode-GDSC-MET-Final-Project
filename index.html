@@ -28,13 +28,21 @@
             <div class="row">
                 <header class="l-header">
                     <div class="row">
-                        <div class="l-header--logo">BrandName</div>
-                        <nav class="l-header--navLinks">
-                            <a href="#">الرئيسيه</a>
-                            <a href="#">من نحن</a>
-                            <a href="#">الكورسات</a>
-                            <a href="#">التواصل</a>
-                        </nav>
+                        <div class="l-header--wrapper">
+                            <label for="toggleNav">
+                                <i class="fa-solid fa-bars toggleNavBar"></i>
+                            </label>
+                            <div class="l-header--logo">BrandName</div>
+                            <nav class="l-header--navLinks">
+                                <div class="row">
+                                    <a class="page-active" href="#">الرئيسيه</a>
+                                    <a href="#">من نحن</a>
+                                    <a href="#">الكورسات</a>
+                                    <a href="#">التواصل</a>
+                                </div>
+                                <input hidden id="toggleNav" type="checkbox" />
+                            </nav>
+                        </div>
                     </div>
                 </header>
                 <div class="heroSection__content">
@@ -92,6 +100,24 @@
                             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
                             لقد تم توليد هذا النص من مولد النص العربى
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutUsInfo">
+            <div class="container">
+                <div class="row">
+                    <div class="aboutUsInfo__details">
+                        <h2 class="sectionTitle">جعل التعلم عن بعد</h2>
+                        <p class="aboutUsInfo__details--desc">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم توليد هذا النص من مولد النص العربى
+                        </p>
+                        <div class="mainBtn">تواصل الان</div>
+                    </div>
+                    <div class="aboutUsInfo__img">
+                        <img src="./images/aboutImg.png" alt="" />
                     </div>
                 </div>
             </div>
