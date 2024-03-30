@@ -45,3 +45,10 @@
     top: 0;
     right: 0;
 }
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 100px;
+}

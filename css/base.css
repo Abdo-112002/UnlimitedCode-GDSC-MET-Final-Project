@@ -1,11 +1,11 @@
 :root {
-    --mainColor: #184C99;
-    --secondColor: #23A6F0;
+    --mainColor: #184c99;
+    --secondColor: #23a6f0;
     --darkColor: #000000;
     --textColor: #737373;
     --wightColor: #ffffff;
-    --titleColor : #252B42;
-    --redColor : #E74040;
+    --titleColor: #252b42;
+    --redColor: #e74040;
     --mainFont: "Cairo", sans-serif;
 }
 
@@ -25,6 +25,6 @@ a {
 
 img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
 }

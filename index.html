@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="منصه تعليمه" />
         <title>منصة كورسات</title>
+
+        <link rel="preload" href="./images/heroImg.webp" as="images" />
+
         <!-- custom font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,103 +28,325 @@
         <link rel="stylesheet" href="./css/home.css" />
     </head>
     <body lang="ar" dir="rtl">
-        <section class="heroSection">
-            <div class="row">
-                <header class="l-header">
-                    <div class="row">
-                        <div class="l-header--wrapper">
-                            <label for="toggleNav">
-                                <i class="fa-solid fa-bars toggleNavBar"></i>
-                            </label>
-                            <div class="l-header--logo">BrandName</div>
-                            <nav class="l-header--navLinks">
-                                <div class="row">
-                                    <a class="page-active" href="#">الرئيسيه</a>
-                                    <a href="#">من نحن</a>
-                                    <a href="#">الكورسات</a>
-                                    <a href="#">التواصل</a>
-                                </div>
-                                <input hidden id="toggleNav" type="checkbox" />
-                            </nav>
+        <div class="pageContainer">
+            <section class="heroSection">
+                <div class="row">
+                    <header class="l-header">
+                        <div class="row">
+                            <div class="l-header--wrapper">
+                                <label for="toggleNav">
+                                    <i
+                                        class="fa-solid fa-bars toggleNavBar"
+                                    ></i>
+                                </label>
+                                <div class="l-header--logo">BrandName</div>
+                                <nav class="l-header--navLinks">
+                                    <div class="row">
+                                        <a class="page-active" href="#"
+                                            >الرئيسيه</a
+                                        >
+                                        <a href="#">من نحن</a>
+                                        <a href="#">الكورسات</a>
+                                        <a href="#">التواصل</a>
+                                    </div>
+                                    <input
+                                        hidden
+                                        id="toggleNav"
+                                        type="checkbox"
+                                    />
+                                </nav>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="heroSection__content">
+                        <div class="row">
+                            <div class="heroSection__content--info">
+                                <h1 class="heroSection__content--info-title">
+                                    دورات ذات <span>جودة</span> ممتازة
+                                </h1>
+                                <p class="heroSection__content--info-desc">
+                                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                                    المساحة، لقد تم توليد هذا النص من مولد النص
+                                    العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                    العديد من النصوص الأخرى إضافة إلى زيادة عدد
+                                    الحروف التى يولدها التطبيق
+                                </p>
+                                <div class="mainBtn">ابدأ الان</div>
+                            </div>
+                            <div class="heroSection__content--img">
+                                <img src="./images/heroImg.webp" alt="" />
+                            </div>
                         </div>
                     </div>
-                </header>
-                <div class="heroSection__content">
+                </div>
+            </section>
+
+            <section class="aboutUs">
+                <div class="container">
                     <div class="row">
-                        <div class="heroSection__content--info">
-                            <h1 class="heroSection__content--info-title">
-                                دورات ذات <span>جودة</span> ممتازة
-                            </h1>
-                            <p class="heroSection__content--info-desc">
+                        <div class="aboutUs__box">
+                            <div class="aboutUs__box--icon">
+                                <img src="./images/aboutIcon3.svg" alt="" />
+                            </div>
+                            <h2 class="sectionTitle">دورات تدريبية</h2>
+                            <p class="aboutUs__box--desc">
                                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس
                                 المساحة، لقد تم توليد هذا النص من مولد النص
-                                العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
-                                من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
-                                يولدها التطبيق
+                                العربى
                             </p>
-                            <div class="mainBtn">ابدأ الان</div>
                         </div>
-                        <div class="heroSection__content--img">
-                            <img src="./images/heroImg.png" alt="" />
+                        <div class="aboutUs__box">
+                            <div class="aboutUs__box--icon">
+                                <img src="./images/aboutIcon2.svg" alt="" />
+                            </div>
+                            <h2 class="sectionTitle">مدرس معتمد</h2>
+                            <p class="aboutUs__box--desc">
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                                المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى
+                            </p>
+                        </div>
+                        <div class="aboutUs__box">
+                            <div class="aboutUs__box--icon">
+                                <img src="./images/aboutIcon1.webp" alt="" />
+                            </div>
+                            <h2 class="sectionTitle">الوصول مدى الحياة</h2>
+                            <p class="aboutUs__box--desc">
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                                المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="aboutUs">
-            <div class="container">
-                <div class="row">
-                    <div class="aboutUs__box">
-                        <div class="aboutUs__box--icon">
-                            <img src="./images/aboutIcon3.svg" alt="" />
+            <section class="aboutUsInfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="aboutUsInfo__details">
+                            <h2 class="sectionTitle">جعل التعلم عن بعد</h2>
+                            <p class="aboutUsInfo__details--desc">
+                                هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                                المساحة، لقد تم توليد هذا النص من مولد النص
+                                العربى
+                            </p>
+                            <div class="mainBtn">تواصل الان</div>
                         </div>
-                        <h2 class="sectionTitle">دورات تدريبية</h2>
-                        <p class="aboutUs__box--desc">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
-                            لقد تم توليد هذا النص من مولد النص العربى
-                        </p>
-                    </div>
-                    <div class="aboutUs__box">
-                        <div class="aboutUs__box--icon">
-                            <img src="./images/aboutIcon2.svg" alt="" />
+                        <div class="aboutUsInfo__img">
+                            <img src="./images/aboutImg.webp" alt="" />
                         </div>
-                        <h2 class="sectionTitle">مدرس معتمد</h2>
-                        <p class="aboutUs__box--desc">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
-                            لقد تم توليد هذا النص من مولد النص العربى
-                        </p>
-                    </div>
-                    <div class="aboutUs__box">
-                        <div class="aboutUs__box--icon">
-                            <img src="./images/aboutIcon1.png" alt="" />
-                        </div>
-                        <h2 class="sectionTitle">الوصول مدى الحياة</h2>
-                        <p class="aboutUs__box--desc">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
-                            لقد تم توليد هذا النص من مولد النص العربى
-                        </p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="aboutUsInfo">
-            <div class="container">
-                <div class="row">
-                    <div class="aboutUsInfo__details">
-                        <h2 class="sectionTitle">جعل التعلم عن بعد</h2>
-                        <p class="aboutUsInfo__details--desc">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
-                            لقد تم توليد هذا النص من مولد النص العربى
-                        </p>
-                        <div class="mainBtn">تواصل الان</div>
-                    </div>
-                    <div class="aboutUsInfo__img">
-                        <img src="./images/aboutImg.png" alt="" />
+            <section class="ourCourses">
+                <div class="container">
+                    <ul class="ourCourses__categories row">
+                        <li class="ourCourses__category tabActive">الكل</li>
+                        <li class="ourCourses__category">جرافيك</li>
+                        <li class="ourCourses__category">برمجه</li>
+                        <li class="ourCourses__category">ديزاين</li>
+                        <li class="ourCourses__category">كتابه محتوي</li>
+                    </ul>
+                    <div class="row">
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources1.webp"
+                                    alt="تطوير تطبيقات الهاتف المحمول باستخدام Flutter & Dart"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    تطوير تطبيقات الهاتف المحمول باستخدام
+                                    Flutter & Dart
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources2.png"
+                                    alt="بدأ الجيتار الصوتي والغيتار الكهربائي"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    بدأ الجيتار الصوتي والغيتار الكهربائي
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources3.png"
+                                    alt="بايثون للمبتدئين - تعلم البرمجة من الصفر"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    بايثون للمبتدئين - تعلم البرمجة من الصفر
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources4.png"
+                                    alt="كن مديرًا للمنتج | تعلم المهارات واحصل على الوظيفة"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    كن مديرًا للمنتج | تعلم المهارات واحصل على
+                                    الوظيفة
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources5.png"
+                                    alt="كيفية تسويق نفسك كمستشار"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    كيفية تسويق نفسك كمستشار
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
+                        <div class="ourCourses__item">
+                            <div class="ourCourses__item--img">
+                                <img
+                                    src="./images/ourCources6.png"
+                                    alt="الإدارة الرياضية: دورة الأساسيات"
+                                />
+                            </div>
+                            <div class="ourCourses__item--info">
+                                <h2 class="ourCourses__item--info-title">
+                                    الإدارة الرياضية: دورة الأساسيات
+                                </h2>
+                                <div
+                                    class="row ourCourses__item--coureseDetails"
+                                >
+                                    <div>
+                                        <i
+                                            class="fa-solid fa-book-bookmark"
+                                        ></i>
+                                        <span>الدرس : 15</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>الطالب : 215</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-trophy"></i>
+                                        <span>مبتدئ</span>
+                                    </div>
+                                </div>
+                                <div class="mainBtn">تواصل الان</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </body>
 </html>
